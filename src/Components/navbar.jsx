@@ -5,7 +5,7 @@ import './navbar.css';
 class Navbar extends Component{
     render(){
         return(         
-            <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+            <nav className="navbar navbar-expand-md navbar-dark bg-primary mb-4">
                 <div className='container'>
                     <Link className="navbar-brand" to="#">Oz Immigration</Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
